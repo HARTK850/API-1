@@ -50,7 +50,7 @@ const SYSTEM_CONSTANTS = {
         MAIN_MENU: "f-main_menu",
         INFO_MENU: "לשמיעת נתוני המערכת הקישו 9. לחזרה הקישו 0.",
         NEW_CHAT_RECORD: "f-Recorded",
-        NO_HISTORY: "f-No_history",
+        NO_HISTORY: "אין לכם היסטורית שיחות במערכת",
         HISTORY_MENU_PREFIX: "f-History_Menu",
         SHARED_HISTORY_PREFIX: "תפריט שיחות משותפות.",
         MENU_SUFFIX_0: "לחזרה לתפריט הראשי הקישו 0.",
