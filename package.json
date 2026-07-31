@@ -1,0 +1,25 @@
+{
+  "name": "yemot-gemini-edge",
+  "version": "49.0.0",
+  "description": "Yemot HaMashiach IVR with Edge Runtime & Upstash",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^1.1.1",
+    "edge-tts-universal": "^1.4.0",
+    "@skills-il/israel-railways-mcp": "latest",
+    "@skills-il/openbus-mcp": "latest",
+    "@skills-il/israel-hiking-mcp": "latest",
+    "@skills-il/israel-nature-mcp": "latest",
+    "@skills-il/israel-vehicles-mcp": "latest",
+    "@skills-il/ben-gurion-flights-mcp": "latest",
+    "@hebcal/mcp": "latest",
+    "@upstash/redis": "^1.35.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
